@@ -41,3 +41,24 @@ Novos Elementos:
 <br>
 Elemento para quebra de linha.
 Obs.: Deve ser uma tag de abertura e não deve ter uma tag de fechamento.
+
+<img>
+Elemento para adicionar imagem ao nosso código. Possui dois atributos:
+src="Local do arquivo" -> Para colocar o local do arquivo que pode ser no próprio dispositivo ou uma página da web.
+alt="Descrição do arquivo" -> Coloca uma descrição na imagem caso ocorra algum erro no carregamento da mesma.
+
+<a></a>
+Elemento âncora utilizado para criar hyperlinks de arquivos, páginas web, endereços de email, telefone, etc.
+
+Atributo href:
+URL para qual o hiperlink aponta. 
+Caso seja um email podemos usar a estrutura <a href="mailto: meu@email.com"> Meu Email</a> para criar um hiperlink de email.
+
+target="_blank" -> Abrir o hiperlink em uma nova aba
+Exemplo: 
+<p>
+GitHub: 
+<a href="https://github.com/RichardFPereira" target="_blank">https://github.com/RichardFPereira<a/>
+</p>
+
+
