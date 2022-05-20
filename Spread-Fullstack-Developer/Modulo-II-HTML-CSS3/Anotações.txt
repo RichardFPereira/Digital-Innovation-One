@@ -1,0 +1,11 @@
+Estrutura básica HTML:
+
+<!DOCTYPE html> //Indica ao editor que estamos trabalhando com HTML
+<hmtl> //Abertura da Tag HTML
+    <head> 
+        <meta charset="utf-8"> //Meta informações para o navegador
+        <title></title>  //Tag para definir o título na aba do navegador
+    </head>
+    <body>	//Tag onde será introduzido o conteúdo da página
+    </body>
+</hmtl>
