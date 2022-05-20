@@ -1,11 +1,43 @@
 Estrutura básica HTML:
 
-<!DOCTYPE html> //Indica ao editor que estamos trabalhando com HTML
-<hmtl> //Abertura da Tag HTML
+<!DOCTYPE html> //Indica ao navegador que estamos trabalhando com HTML5.
+<hmtl> //Abertura da Tag HTML que é a raiz do documento. Tudo deve estar dentro dessa tag.
     <head> 
-        <meta charset="utf-8"> //Meta informações para o navegador
+        <meta charset="utf-8"> //Meta informações para o navegador como a codificação de caracteres por exemplo
         <title></title>  //Tag para definir o título na aba do navegador
     </head>
-    <body>	//Tag onde será introduzido o conteúdo da página
+    <body>	//Tag onde será introduzido o conteúdo da página visível aos usuários
     </body>
 </hmtl>
+
+Elemento: Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento.
+
+Semântica:
+
+<section>
+Representa uma seção genérica de conteúdo quando não houber um elemento mais específico para isso.
+
+<header>
+É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca, etc.
+
+<article>
+Representa um conteúdo de maior relevância na página como um post de um blog ou uma notícia em uma barra lateral por exemplo.
+Um article pode conter outros elementos como header, cabeçalhos, parágrafos e imagens.
+
+<aside>
+É uma seção que engloba conteúdos relaciondos ao conteúdo principal, como artigos relacionados, biografia do autor ou publicidade.
+Normalmente são apresentados como barras laterais.
+
+<footer>
+Esse elemento representa o rodapé do conteúdo ou parte dele. É aceito em outros elementos como article e section. 
+Geralmente contém informações do autor e páginas relacionadas.
+
+<h1>-<h6>
+Não são específicos para semântica, mas servem a esse propósito. São utilizados para priorizar títulos sendo <h1> de maior importância e <h6> de menor.
+Opte por utilizar apenas uma tag <h1> ná página, pois irá representar o objetivo da mesma.
+
+Novos Elementos:
+
+<br>
+Elemento para quebra de linha.
+Obs.: Deve ser uma tag de abertura e não deve ter uma tag de fechamento.
